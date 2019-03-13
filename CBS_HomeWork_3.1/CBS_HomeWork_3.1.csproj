@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F2A4A3A3-ED4C-4A0E-AB5A-AFA45E4528B0}</ProjectGuid>
+    <ProjectGuid>{75E75E9E-39EF-4F4E-B94F-0067BB3B7C8A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CBS_HomeWork</RootNamespace>
-    <AssemblyName>CBS_HomeWork</AssemblyName>
+    <RootNamespace>CBS_HomeWork_3._1</RootNamespace>
+    <AssemblyName>CBS_HomeWork_3.1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,8 +35,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
